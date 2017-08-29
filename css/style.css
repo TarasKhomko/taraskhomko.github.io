@@ -1,18 +1,47 @@
 body{
+font-family: "Open Sans";
+}
+	.content{
+	margin-top: 55px;
+			}
+.footer{
+	min-height: 50px;
+	background-color: #808080;
+	color: #f2f2f2;	
 
 }
-.info{
-    margin-bottom:  100px;
-font-family: "Open Sans";
-    font-size: 16px;
+.footer.copyright span{
+	text-align: center;
+	line-height: 50px;
+	min-height: 50px;
+	
 }
+
+.contacts{
+	text-align: left
+}
+.about{
+	padding: 15px;
+	height: 600px;
+	background-color: aqua;
+}
+.info{
+	padding: 15px;
+min-height:  600px;
+
+    font-size: 16px;
+	background-color: aquamarine;
+}
+
 .skils{
-  margin-top: 100px;
+	padding: 15px;
+	min-height: 600px;
+	background-color: #ada8a8;
 }
 .skil {
 	position:relative;
 	display:block;
-	margin-bottom:15px;
+	margin-bottom:10px;
 	width:100%;
 	background:#eee;
 	height:35px;
