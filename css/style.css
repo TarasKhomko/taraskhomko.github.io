@@ -1,47 +1,76 @@
 body{
 font-family: "Open Sans";
+	 letter-spacing: 0.1em;
+	font-size: 16px;
+
 }
+#particles-js{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background: linear-gradient(to bottom right, #666, #999, #ccc);
+}
+.con{
+	position: relative;
+	z-index: 2;
+}
+
 	.content{
+		
 	margin-top: 55px;
 			}
 .footer{
-	min-height: 50px;
+	min-height: 70px;
+	height: auto;
 	background-color: #808080;
-	color: #f2f2f2;	
+	color: #ccc;	
 
 }
 .footer.copyright span{
 	text-align: center;
 	line-height: 50px;
 	min-height: 50px;
-	
+		font-size: 16px;
 }
 
 .contacts{
-	text-align: left
+		height: auto;
+	text-align: left;
 }
+.contacts a{
+	color: #f2f2f2;	
+}
+.contacts a:hover{
+	color: #e6e6e6;	
+	text-decoration: none;
+}
+
 .about{
 	padding: 15px;
 	height: 600px;
-	background-color: aqua;
+	background-color: #666;
+	color: #ccc;
 }
 .info{
 	padding: 15px;
 min-height:  600px;
-
+color:#333 ;
     font-size: 16px;
-	background-color: aquamarine;
+	background-color:   #ccc;
 }
 
 .skils{
 	padding: 15px;
-	min-height: 600px;
+
 	background-color: #ada8a8;
 }
 .skil {
 	position:relative;
 	display:block;
-	margin-bottom:10px;
+	margin-bottom:15px;
 	width:100%;
 	background:#eee;
 	height:35px;
@@ -64,7 +93,7 @@ min-height:  600px;
 }
 
 .skil_text span {
-  font-family: "Open Sans";
+	font-size: 16px;
 	display:block;
 	padding:0 20px;
 	height:35px;
@@ -84,9 +113,13 @@ min-height:  600px;
 	position:absolute;
 	right:10px;
 	top:0;
-	font-size:11px;
+	font-size:13px;
 	height:35px;
 	line-height:35px;
 	color:#ffffff;
 	color:rgba(0, 0, 0, 0.4);
+}
+
+.fa-telegram{
+	color: #2298d5;
 }
