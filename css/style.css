@@ -20,7 +20,7 @@ body {
 }
 
 .content {
-	margin-top: 55px;
+	margin-top: 51px;
 }
 
 .footer {
@@ -103,9 +103,9 @@ body {
 	font-size: 14px;
 	color: #fff;
 	background: #333;
-	
+
 	background: linear-gradient(to right, #333, #595959, #808080);
-	
+
 	border-top-left-radius: 3px;
 	border-bottom-left-radius: 3px;
 }
@@ -135,7 +135,7 @@ body {
 	font-size: 13px;
 	height: 35px;
 	line-height: 35px;
-	
+
 	color: #ffffff;
 	color: rgba(0, 0, 0, 0.4);
 }
@@ -162,7 +162,7 @@ body {
 		background: linear-gradient( #404040, 	 #333333, #404040);
 		text-align: center;
 	}
-	
+
 	.about {
 
 	background: rgba( 147, 93, 223, 0.588 );
