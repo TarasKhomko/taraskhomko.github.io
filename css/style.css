@@ -20,12 +20,12 @@ body {
 }
 
 .content {
-	margin-top: 51px;
+	margin-top: 40px;
 }
 
 .footer {
 	min-height: 70px;
-	margin: 5px;
+	width: 100%;
 	color: #ccc;
 	background-color: #808080;
 	height: 100%;
@@ -62,15 +62,16 @@ body {
 
 .about {
 	padding: 15px;
-	height: 600px;
+	min-height: 600px;
+	width: 100%;
 	background: linear-gradient(to bottom right, #666, #888);
-
 	color: #ccc;
 }
 
 .info {
 	padding: 15px;
 	min-height: 600px;
+	width: 100%;
 	color: #333;
 	font-size: 16px;
 
@@ -79,6 +80,9 @@ body {
 
 .skils {
 	padding: 15px;
+	min-height: 600px;
+	width: 100%;
+
 	background-color: #ada8a8;
 }
 
@@ -144,7 +148,7 @@ body {
 	color: #2298d5;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 767.98px) {
 
 	.footer {
 		min-height: 90px;
@@ -171,7 +175,7 @@ body {
 }
 
 .info {
-
+width: auto;
 	color: #333;
 
 	background: rgba( 93, 223, 103, 0.588 );
@@ -182,4 +186,27 @@ body {
 	background: rgba( 223, 184, 93, 0.588 );
 }
 
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #222;
+}
+.nav-item {
+	color: #fff;
+background-color: #666;
+}
+
+
+.nav-pills .nav-link {
+    border-radius: 0rem;
+}
+a:hover{
+	    color: #ade210ad;
+}
+a {
+	    color: #ade210ad;
+}
+.navbar {
+	padding: 0  0 0 10px;
 }
